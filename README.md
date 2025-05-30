@@ -1,5 +1,5 @@
 # 🌠 Soft Conclusion Website
-A website to introduce Soft Conclusion, its objectives, and future plans. Also, this project served as an opportunity to know the ASP.NET framework as well as understand the MVC architecture.
+A website to introduce [Soft Conclusion](https://www.youtube.com/@Soft.Conclusion), its objectives, and future plans. Also, this project served as an opportunity to know the ASP.NET framework as well as understand the MVC architecture.
 # 🧩 Architecture
 MVC (Model-View-Connector)
 # 🪄 Technologies
