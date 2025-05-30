@@ -1,0 +1,190 @@
+﻿@{
+	ViewData["Title"] = "MindMaps";
+}
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .pdf-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.2s;
+            background-color: white;
+        }
+        
+        .pdf-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .pdf-icon {
+            font-size: 2rem;
+            color: #d9534f;
+            margin: 0 !important;
+        }
+
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text-center">
+        <h1 class="display-4 m-0">MindMaps</h1>
+    </div>
+    <div class="container my-4">
+        <div class="row">
+
+            <!-- PDF File 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="pdf-card d-flex flex-column h-100">
+                    <div class="flex-grow-1">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-file-earmark-pdf pdf-icon me-3" style="flex: 0 0 15%;"></i>
+                            <h3 class="m-0">Software Testing MindMap</h3>
+                        </div>
+                        <p class="text-muted" style="padding-left: 15%">A beginner's guide to software testing concepts.✏️</p>
+                    </div>
+                    <div class="pt-2">
+                        <a href="@Url.Content("~/mindmaps/Software Testing MindMap.pdf")" class="btn btn-primary w-100" target="_blank">
+                            <i class="bi bi-file-earmark-pdf me-2"></i> Open MindMap
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PDF File 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="pdf-card d-flex flex-column h-100">
+                    <div class="flex-grow-1">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-file-earmark-pdf pdf-icon me-3" style="flex: 0 0 15%;"></i>
+                            <h3 class="m-0">Software Architecture MindMap</h3>
+                        </div>
+                        <p class="text-muted" style="padding-left: 15%">Deep dive into software design & architecture concepts. 🏛️</p>
+                    </div>
+                    <div class="pt-2">
+                        <a href="@Url.Content("~/mindmaps/Software Architecture MindMap.pdf")" class="btn btn-primary w-100" target="_blank">
+                            <i class="bi bi-file-earmark-pdf me-2"></i> Open MindMap
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PDF File 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="pdf-card d-flex flex-column h-100">
+                    <div class="flex-grow-1">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-file-earmark-pdf pdf-icon me-3" style="flex: 0 0 15%;"></i>
+                            <h3 class="m-0">Engineering Economics MindMap</h3>
+                        </div>
+                        <p class="text-muted" style="padding-left: 15%">Get to know the principles of engineering economy.📈</p>
+                    </div>
+                    <div class="pt-2">
+                        <a href="@Url.Content("~/mindmaps/Engineering Economics MindMap.pdf")" class="btn btn-primary w-100" target="_blank">
+                            <i class="bi bi-file-earmark-pdf me-2"></i> Open MindMap
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PDF File 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="pdf-card d-flex flex-column h-100">
+                    <div class="flex-grow-1">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-file-earmark-pdf pdf-icon me-3" style="flex: 0 0 15%;"></i>
+                            <h3 class="m-0">Operating System MindMap</h3>
+                        </div>
+                        <p class="text-muted" style="padding-left: 15%">Learn about Operating Systems.⚙️</p>
+                    </div>
+                    <div class="pt-2">
+                        <a href="@Url.Content("~/mindmaps/OS MindMap.pdf")" class="btn btn-primary w-100" target="_blank">
+                            <i class="bi bi-file-earmark-pdf me-2"></i> Open MindMap
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PDF File 5 -->
+            <div class="col-md-3 mb-4">
+                <div class="pdf-card d-flex flex-column h-100">
+                    <div class="flex-grow-1">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-file-earmark-pdf pdf-icon me-3" style="flex: 0 0 15%;"></i>
+                            <h3 class="m-0">Web Development MindMap</h3>
+                        </div>
+                        <p class="text-muted" style="padding-left: 15%">Learn the essentials of Web Dev. 🧑‍💻</p>
+                    </div>
+                    <div class="pt-2">
+                        <a href="@Url.Content("~/mindmaps/Web Development MindMap.pdf")" class="btn btn-primary w-100" target="_blank">
+                            <i class="bi bi-file-earmark-pdf me-2"></i> Open MindMap
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PDF File 6 -->
+            <div class="col-md-3 mb-4">
+                <div class="pdf-card d-flex flex-column h-100">
+                    <div class="flex-grow-1">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-file-earmark-pdf pdf-icon me-3" style="flex: 0 0 15%;"></i>
+                            <h3 class="m-0">XML & Web Services MindMap</h3>
+                        </div>
+                        <p class="text-muted" style="padding-left: 15%">The basics of XML and Web Services.📦</p>
+                    </div>
+                    <div class="pt-2">
+                        <a href="@Url.Content("~/mindmaps/XML & Web Services MindMap.pdf")" class="btn btn-primary w-100" target="_blank">
+                            <i class="bi bi-file-earmark-pdf me-2"></i> Open MindMap
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PDF File 7 -->
+            <div class="col-md-3 mb-4">
+                <div class="pdf-card d-flex flex-column h-100">
+                    <div class="flex-grow-1">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-file-earmark-pdf pdf-icon me-3" style="flex: 0 0 15%;"></i>
+                            <h3 class="m-0">PHP MindMap</h3>
+                        </div>
+                        <p class="text-muted" style="padding-left: 15%">Interested in PHP? the right place to start!🚀</p>
+                    </div>
+                    <div class="pt-2">
+                        <a href="@Url.Content("~/mindmaps/PHP MindMap.pdf")" class="btn btn-primary w-100" target="_blank">
+                            <i class="bi bi-file-earmark-pdf me-2"></i> Open MindMap
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PDF File 8 -->
+            <div class="col-md-3 mb-4">
+                <div class="pdf-card d-flex flex-column h-100">
+                    <div class="flex-grow-1">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-file-earmark-pdf pdf-icon me-3" style="flex: 0 0 15%;"></i>
+                            <h3 class="m-0">PHP & MySQL MindMap</h3>
+                        </div>
+                        <p class="text-muted" style="padding-left: 15%">Learn the relation between PHP and MySQL.🛢️</p>
+                    </div>
+                    <div class="pt-2">
+                        <a href="@Url.Content("~/mindmaps/PHP & MySQL MindMap.pdf")" class="btn btn-primary w-100" target="_blank">
+                            <i class="bi bi-file-earmark-pdf me-2"></i> Open MindMap
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>

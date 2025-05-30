@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<head>
+    <style>
+        .card {
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-bg {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container mt-3">
+
+        <!-- First Card -->
+        <div class="card mb-4 card-bg" style="background-image: url('@Url.Content("~/images/card-bg-1.png")');">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-2">
+                    <h3 style="flex: 0 0 10%;">🚀</h3>
+                    <h3 class="m-0">Who are we?</h3>
+                </div>
+                <p class="card-text" style="padding-left: 10%">
+                    An educational platform that connects learners with other learners and lets anybody share their
+                    educational content. Our objective is to establish a simple and engaging environment to share
+                    software development tools and practices.
+                </p>
+                <p class="card-text" style="padding-left: 10%">
+                    By giving students, instructors, employees, and entrepreneurs an opportunity to share their
+                    knowledge and experiences through Soft Conclusion.
+                </p>
+            </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="card mb-4 card-bg" style="background-image: url('@Url.Content("~/images/card-bg-2.png")');">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-2">
+                    <h3 style="flex: 0 0 10%;">🎯</h3>
+                    <h3 class="m-0">Our Objectives</h3>
+                </div>
+                <ul class="card-text" style="padding-left: 10%; list-style: none;">
+                    <li>Build an engaging and robust learning environment.</li>
+                    <li>Give the mic to others to share their knowledge and experiences.</li>
+                    <li>To become a regional software development learning platform.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Third Card -->
+        <div class="card mb-4 card-bg" style="background-image: url('@Url.Content("~/images/card-bg-3.png")');">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-2">
+                    <h3 style="flex: 0 0 10%;">🔭</h3>
+                    <h3 class="m-0">Next Step?</h3>
+                </div>
+                <p class="card-text" style="padding-left: 10%">
+                    To establish a website where learners are able to upload their courses and interact with each other.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</body>

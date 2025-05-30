@@ -1,0 +1,144 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler {
+        display: block !important;
+    }
+
+    /* Hide navbar content by default on mobile (Bootstrap will handle the toggle) */
+    .navbar-collapse:not(.show) {
+        display: none !important;
+    }
+
+    /* Remove centering on mobile */
+    .navbar .container-fluid {
+        justify-content: flex-start !important;
+    }
+
+    /* Make the main flex container wrap and take full width */
+    .navbar .d-flex {
+        flex-wrap: wrap !important;
+        width: 100% !important;
+        align-items: flex-start !important;
+    }
+
+        /* Logo and toggle button container */
+        .navbar .d-flex > .navbar-brand,
+        .navbar .d-flex > .navbar-toggler {
+            flex-shrink: 0;
+        }
+
+    /* Position toggle button to the right */
+    .navbar .navbar-toggler {
+        margin-left: auto !important;
+    }
+
+    /* Make collapsed content take full width and appear below */
+    .navbar .navbar-collapse {
+        flex-basis: 100% !important;
+        margin-top: 1rem !important;
+    }
+
+        /* Center the navigation items when collapsed */
+        .navbar .navbar-collapse .navbar-nav {
+            justify-content: center !important;
+            text-align: center;
+        }
+
+    /* Stack nav items vertically on mobile */
+    .navbar .navbar-nav {
+        flex-direction: column !important;
+    }
+
+    /* Add some spacing between nav items */
+    .navbar .nav-item {
+        margin: 0.25rem 0 !important;
+    }
+}
+
+/* Regular */
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('/fonts/GOTHIC.TTF') format('truetype');
+    font-weight: 400; /* Normal */
+    font-style: normal;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('/fonts/GOTHICB.TTF') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Century Gothic', sans-serif;
+    background-image: url('~/images/home-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body p {
+        font-family: 'Century Gothic', sans-serif;
+}
+
+.navbar .nav-link.active {
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: #92D050 !important;
+}
+
+.btn-primary {
+    --bs-btn-bg: #92D050;
+    --bs-btn-border-color: #92D050;
+    --bs-btn-hover-bg: #7FB843;
+    --bs-btn-hover-border-color: #7FB843;
+    --bs-btn-active-bg: #6C9F37;
+    --bs-btn-active-border-color: #6C9F37;
+    --bs-btn-disabled-bg: #92D050;
+    --bs-btn-disabled-border-color: #92D050;
+}
+
+.btn-danger {
+    --bs-btn-bg: #C34D5F;
+    --bs-btn-border-color: #C34D5F;
+    --bs-btn-hover-bg: #A83E4F;
+    --bs-btn-hover-border-color: #A83E4F;
+    --bs-btn-active-bg: #9A3747;
+    --bs-btn-active-border-color: #9A3747;
+    --bs-btn-disabled-bg: #C34D5F;
+    --bs-btn-disabled-border-color: #C34D5F;
+}
+
+.btn-warning {
+    --bs-btn-bg: #FFFF00;
+    --bs-btn-border-color: #FFFF00;
+    --bs-btn-hover-bg: #E6E600;
+    --bs-btn-hover-border-color: #E6E600;
+    --bs-btn-active-bg: #CCCC00;
+    --bs-btn-active-border-color: #CCCC00;
+    --bs-btn-disabled-bg: #FFFF00;
+    --bs-btn-disabled-border-color: #FFFF00;
+}
