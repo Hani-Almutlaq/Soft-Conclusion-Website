@@ -9,4 +9,4 @@ MVC (Model-View-Connector)
 - Bootswatch
 - Miro (to create the mindmaps)
 # 🔗 Link
-Website link: 
+Website link: https://soft-conclusion.servexa.net
