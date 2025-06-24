@@ -9,4 +9,4 @@ MVC (Models-Views-Controllers).
 - Bootswatch
 - Miro (to create the mindmaps)
 # 🔗 Link
-Website link: https://soft-conclusion.servexa.net
+Website link: https://softconclusion.servexa.net
